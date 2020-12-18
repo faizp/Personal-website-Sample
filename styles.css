@@ -1,0 +1,71 @@
+@font-face{
+    font-family: Pacifico;
+    src: url(fonts/Pacifico-Regular.ttf);
+
+}
+
+.head{
+    background-color: #000000;
+}
+
+.head-title{
+    font-size: 30px;
+    padding: 1rem;
+    font-family: 'Pacifico', Regular;
+    color: #ffffff;
+
+}
+.navbar-nav{
+    margin-left: auto;
+    padding-right: 2em;
+
+}
+.main{
+    background-image: url(images/image1.jpg);
+    background-attachment: scroll;
+    background-color: black;
+}
+.first-section{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-toggler{
+    margin-left: auto;
+    padding-right: 2em;
+}
+.name{
+    font-family: cursive;
+    color: aliceblue;
+    font-size: 50px;
+    
+}
+.about-me{
+    text-align: center;
+}
+.webdev{
+    color: #a8a8a8 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    margin-bottom: 12em;
+}
+.headings{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 40px;
+}
+.nav-link{
+    color: #ffffff;
+}
+.card-img-top{
+    height: 10em;
+}
+.special-card{
+    background-color: rgba(245, 245, 245, 1);
+  opacity: .4;
+}
+.third-section{
+    padding-bottom: 8em;
+    background-image: url(images/image2.jpg);
+    height: 100%;
+    
+}
