@@ -22,7 +22,7 @@
 }
 .main{
     background-image: url(images/image1.jpg);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-color: black;
 }
 .first-section{
@@ -69,10 +69,13 @@
 .third-section{
     padding-bottom: 8em;
     background-image: url(images/image2.jpg);
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: 100%;
     
 }
-/* .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;..");
-  } */
+.year{
+    border: 2px solid red;
+    text-align: center;
+    outline: 2px royalblue;
+    margin-top: 1em;
+}
