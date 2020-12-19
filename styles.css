@@ -3,6 +3,9 @@
     src: url(fonts/Pacifico-Regular.ttf);
 
 }
+html{
+    overflow: visible;
+}
 
 .head{
     background-color: #000000;
@@ -78,4 +81,14 @@
     text-align: center;
     outline: 2px royalblue;
     margin-top: 1em;
+}
+.contact{
+    background-image: url(images/image3.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    padding-bottom: 4em;
+}
+.button{
+    margin-top: 1em;
+    text-align: center;
 }
