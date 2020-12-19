@@ -7,30 +7,37 @@ html{
     overflow: visible;
 }
 
-.head{
-    background-color: #000000;
+header{
+    background-color: transparent;
+    
 }
 
 .head-title{
     font-size: 30px;
     padding: 1rem;
     font-family: 'Pacifico', Regular;
-    color: #ffffff;
+    color: #ffe96d;
 
+}
+
+.nav-link{
+    background-color: rgba(54, 53, 53, 0.2);
 }
 .navbar-nav{
     margin-left: auto;
     padding-right: 2em;
-
 }
+
 .main{
     background-image: url(images/image1.jpg);
     background-attachment: fixed;
     background-color: black;
+    padding-bottom: 6em;
 }
 .first-section{
     height: 100%;
     width: 100%;
+    background-color: #000000;
     
 }
 
@@ -46,6 +53,7 @@ html{
 }
 .about-me{
     text-align: center;
+    
 }
 .webdev{
     color: #a8a8a8 ;
@@ -57,14 +65,12 @@ html{
     margin-top: 2em;
     font-size: 40px;
 }
-.nav-link{
-    color: #ffffff;
-}
+
 .card-img-top{
     height: 10em;
 }
 .special-card{
-    background-color: rgba(245, 245, 245, 1);
+  background-color: rgba(245, 245, 245, 1);
   opacity: .4;
   height: 8rem;
 }
@@ -72,6 +78,9 @@ html{
     text-align: center;
     color:rgb(14, 13, 13);
     opacity: 5;
+}
+.card-transperant{
+    margin-left: 2em;
 }
 .third-section{
     padding-bottom: 8em;
