@@ -31,6 +31,7 @@ html{
 .first-section{
     height: 100%;
     width: 100%;
+    
 }
 
 .navbar-toggler{
@@ -65,9 +66,12 @@ html{
 .special-card{
     background-color: rgba(245, 245, 245, 1);
   opacity: .4;
+  height: 8rem;
 }
 .card-title{
     text-align: center;
+    color:rgb(14, 13, 13);
+    opacity: 5;
 }
 .third-section{
     padding-bottom: 8em;
@@ -91,4 +95,17 @@ html{
 .button{
     margin-top: 1em;
     text-align: center;
+}
+.footer{
+    height: 8em;
+    background-color: rgb(155, 154, 154);
+}
+.fa{
+    color: #ffffff;
+}
+.bi{
+    color: #ffffff;
+}
+.education{
+    padding-bottom: 5em;
 }
