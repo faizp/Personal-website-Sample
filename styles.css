@@ -63,9 +63,16 @@
     background-color: rgba(245, 245, 245, 1);
   opacity: .4;
 }
+.card-title{
+    text-align: center;
+}
 .third-section{
     padding-bottom: 8em;
     background-image: url(images/image2.jpg);
+    background-attachment: scroll;
     height: 100%;
     
 }
+/* .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  } */
