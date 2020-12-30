@@ -11,12 +11,15 @@
     <!-- bootstrap link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet"> -->
-
+    
+    <!-- Ajax link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
 </head>
 <body>
     <!-- HEADER STARTS -->
-    <header style="position: fixed; width: 100%; z-index: 1;">
-        <div class="row" >
+    <header>
+        <div class="row">
             <div class="col-xs-9 head" style="width: 50%;">
                 <h1 class="head-title">Faiz P</h1>
             </div>
@@ -49,8 +52,9 @@
                   <!-- NAV BAR ENDS -->
 
             </div>
-
         </div>
+
+      
     </header>
     <!-- HEADER ENDS -->
     <!-- FIRST SECTION STARTS -->
@@ -151,13 +155,11 @@
           <div class="card-body special-card">
             <h5 class="card-title">Web Designing</h5>
             <p class="card-text">Design Website using HTML5, CSS, BOOTSTRAP<br> & JAVASCRIPT</p>
-           
           </div>
         </div>
         </div>
         <div class="col-lg-4 mt-5">
         <div class="card-transperant" style="width: 18rem; text-align: center;">
-         
           <svg xmlns="http://www.w3.org/2000/svg" style="height: 5em; margin-bottom: 2px;" fill="currentcolor" class="bi bi-phone-fill" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
           </svg>
@@ -229,31 +231,41 @@
         <h1 class="headings" style="color: white;">Contact</h1>
       </div>
         <div class="column mt-3">
-          <form >
-            <div class="form-group">
-              <label for="exampleInputEmail1" style="color: aliceblue;">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-              
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1" style="color: aliceblue;">Name</label>
-              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Your name" required>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1" style="color: aliceblue;">Type your message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message..." required></textarea>
-            </div>
-            <div class="button">
-            <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-          </form>
+          <form id="submit-form" action="">
+						<div class="form-group">
+							<label for="fname" style="color: aliceblue;">First Name</label>
+							<input type="text" class="form-control" id="fname" name="name" placeholder="Your name..">
+						  </div>
+						  <div class="form-group">
+							<label for="lname" style="color:aliceblue">Email</label>
+							<input id="lname" name="email" class="form-control" placeholder="Your last name..">
+							</div>
+							<div class="form-group">
+							<label for="country" style="color: aliceblue;">Country</label>
+							<select id="country" class="form-control" name="country" >
+                <option value="">country</option>
+							  <option value="australia">Australia</option>
+							  <option value="canada">Canada</option>
+							  <option value="usa">USA</option>
+							  <option value="usa">India</option>
+							  <option value="usa">Other</option>
+							</select>
+							</div>
+							<div class="form-group">
+							<label for="subject" style="color: aliceblue;">Message</label>
+							<textarea id="subject" name="message" class="form-control" placeholder="Write something.." style="height:170px" ></textarea>
+							</div>
+							
+							<div class="button text-center">
+								<button type="submit" class="btn btn-primary" formnovalidate>Submit</button>
+								</div>
+						  </form>
       </div>
 
 
     </div>
     </div>
-
-
+   
   </section>
   <!-- FOOTER SECTION -->
   <footer class="footer">
@@ -271,8 +283,15 @@
     </div>
   </footer>
 
+  
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <javascript link -->
+      
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <!-- font awesome link  -->
